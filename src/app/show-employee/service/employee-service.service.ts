@@ -31,7 +31,7 @@ export class EmployeeServiceService {
     return this.EmployeeRef=this.db.object('/employee/'+id)
   }
 
-  getAllEmployee(id:string){
+  getAllEmployee(){
     // EmployeeRef ==> دا من نوع اوبجيكت يعني هيرجع اوبجيكت واحد بس
      return this.EmployeeListRef=this.db.list('/employee')
    }
