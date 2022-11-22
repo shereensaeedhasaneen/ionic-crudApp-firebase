@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'edit-employee/:id',
     loadChildren: () => import('./edit-employee/edit-employee.module').then( m => m.EditEmployeePageModule)
   },
+  {
+    path: 'registeration',
+    loadChildren: () => import('./user/registeration/registeration.module').then( m => m.RegisterationPageModule)
+  },
 
 ];
 
